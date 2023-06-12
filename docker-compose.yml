@@ -1,5 +1,7 @@
+#  version of the docker compose file format being used
 version: '3.9'
 
+# containers that make up the application
 services:
   db:
     image: postgres
